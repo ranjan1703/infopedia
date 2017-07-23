@@ -2,7 +2,777 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5460c43-3cde-47a1-9c63-c2c20b7c8966" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infopedia" afterPath="$PROJECT_DIR$/infopedia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/callout.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/person-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/person-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/person-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/person-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/.idea/ExamPortal.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/.idea/dashboard.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/ChangeStatus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/adminControlCenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/adminLogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/backtoCC.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/backtoCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/cat_page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/cat_ques.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dashadmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/data/flot-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/data/morris-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dbconnect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/decide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/deleteUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispCatTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispQuestTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispRequestList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispStudentUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispTeacherUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dist/css/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dist/css/sb-admin-2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dist/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dist/js/sb-admin-2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/editQuest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/filterOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/less/sb-admin-2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/manageUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/morris.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/newEntries.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/new_cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/new_quest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/optCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/optQuest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/overlays.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/pending.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/style.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/submit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/updateCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/updateQuestion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap-social/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap-social/bootstrap-social.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-plugins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.uikit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.uikit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/datatables/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/flot/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/css/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/metisMenu/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/metisMenu/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/metisMenu/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/metisMenu/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/morrisjs/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/morrisjs/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/morrisjs/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/raphael/raphael.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Admin/vendor/raphael/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/analysis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/catAvailable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/dashstu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/data/flot-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/data/morris-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/dbconnect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/dist/css/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/dist/css/sb-admin-2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/dist/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/dist/js/sb-admin-2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/giveExam.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/less/sb-admin-2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/prepareData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/start_exam.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/studLogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/style.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/submit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap-social/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap-social/bootstrap-social.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-plugins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.uikit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.uikit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/datatables/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/flot/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/css/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/metisMenu/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/metisMenu/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/metisMenu/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/metisMenu/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/morrisjs/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/morrisjs/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/morrisjs/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/raphael/raphael.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Students/vendor/raphael/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/ChangeStatus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/backtoCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/cat_chck.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/cat_page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/cat_ques.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dashteacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/data/flot-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/data/morris-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dbconnect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dispCatTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dispQuestTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dist/css/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dist/css/sb-admin-2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dist/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dist/js/sb-admin-2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/editQuest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/less/sb-admin-2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/new_cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/new_quest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/optCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/optQuest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/style.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/submit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/teacherLogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/updateCat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/updateQuestion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap-social/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap-social/bootstrap-social.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-plugins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.uikit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.uikit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/datatables/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/flot/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/css/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/metisMenu/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/metisMenu/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/metisMenu/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/metisMenu/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/morrisjs/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/morrisjs/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/morrisjs/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/raphael/raphael.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/vendor/raphael/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamPortal/db_examportal.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/stylish-portfolio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/owl.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css1/style.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/superslides.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/bridge-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/cyan-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/dark-red-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/green-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/lite-blue-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/orange-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/pink-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/purple-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/red-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css2/themes/yellow-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashadmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashstu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/sb-admin-2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/sb-admin-2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js1/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/front.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/jquery.scrollTo.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/modernizr-2.6.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/jquery.animate-enhanced.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/jquery.superslides.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/jquery.ui.map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js3/wow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap-social/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap-social/bootstrap-social.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-plugins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.uikit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.uikit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/datatables/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/flot/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/metisMenu/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/metisMenu/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/metisMenu/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/metisMenu/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/morrisjs/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/morrisjs/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/morrisjs/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/raphael/raphael.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/raphael/raphael.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/infopedia" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="infopedia.iws" />
@@ -23,23 +793,13 @@
     <favorites_list name="infopedia" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="adminControlCenter.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/infopedia/ExamPortal/Admin/adminControlCenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1500717976025" expanded="true" signature="80:108" ph="SELECT * FRO... temp_teacher" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -95,50 +855,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamPortal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infopedia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamPortal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,7 +920,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500807461836</updated>
-      <workItem from="1500807463758" duration="901000" />
+      <workItem from="1500807463758" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="test again">
       <created>1500808917738</created>
@@ -213,11 +929,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500808917738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test again">
+      <created>1500808929758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500808929758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="901000" />
+    <option name="totallyTimeSpent" value="1412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -266,9 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500717976025" expanded="true" signature="80:108" ph="SELECT * FRO... temp_teacher" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
