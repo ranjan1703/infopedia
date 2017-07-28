@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="521ad65b-e91b-40d7-8376-68db9ae22833" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashstu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/callout.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/person-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/person-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/person-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/person-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/infopedia" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/infopedia.iml" afterPath="$PROJECT_DIR$/.idea/infopedia.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/ChangeStatus.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/ChangeStatus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/adminControlCenter.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/adminControlCenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/cat_page.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/cat_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/dashadmin.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dashadmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/deleteUser.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/deleteUser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/dispCatTable.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispCatTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/dispStudentUsers.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispStudentUsers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/dispTeacherUsers.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/dispTeacherUsers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/manageUsers.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/manageUsers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/optCat.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/optCat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/overlays.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/overlays.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Admin/updateCat.php" afterPath="$PROJECT_DIR$/ExamPortal/Admin/updateCat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Students/catAvailable.php" afterPath="$PROJECT_DIR$/ExamPortal/Students/catAvailable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Students/dashstu.php" afterPath="$PROJECT_DIR$/ExamPortal/Students/dashstu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Students/giveExam.php" afterPath="$PROJECT_DIR$/ExamPortal/Students/giveExam.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Students/prepareData.php" afterPath="$PROJECT_DIR$/ExamPortal/Students/prepareData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Students/start_exam.php" afterPath="$PROJECT_DIR$/ExamPortal/Students/start_exam.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Teachers/cat_page.php" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/cat_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Teachers/cat_ques.php" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/cat_ques.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Teachers/dashteacher.php" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/dashteacher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Teachers/optCat.php" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/optCat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamPortal/Teachers/updateCat.php" afterPath="$PROJECT_DIR$/ExamPortal/Teachers/updateCat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="infopedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,6 +125,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -368,22 +335,30 @@
       <workItem from="1501147305806" duration="4000" />
       <workItem from="1501245445667" duration="3758000" />
       <workItem from="1501258414823" duration="12000" />
-      <workItem from="1501258664553" duration="40000" />
+      <workItem from="1501258664553" duration="265000" />
     </task>
+    <task id="LOCAL-00001" summary="new update">
+      <created>1501258775445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501258775445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20410000" />
+    <option name="totallyTimeSpent" value="20635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -411,6 +386,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
