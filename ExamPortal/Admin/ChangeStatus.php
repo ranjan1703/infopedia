@@ -1,7 +1,6 @@
 <?php
 include_once("dbconnect.php");
- ?>
-<?php
+
 session_start();
 if(isset($_SESSION['aname']))
 {

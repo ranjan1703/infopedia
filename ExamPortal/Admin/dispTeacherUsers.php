@@ -52,13 +52,13 @@ if(mysqli_num_rows($rsltT)>0)
           <?php echo $rowT["fname"];?>
         </td>
         <td align="center">
-          <form action="manageUsers.php" method="post" id="view">
-          <button type="submit" form="view" name="showTeach" value="<?php echo $rowT["email"]; ?>" onclick="on();">View</button>
+          <form action="manageUsers.php" method="post" id="view"><br>
+          <button type="submit" form="view" name="showTeach" class="btn btn-primary" value="<?php echo $rowT["email"]; ?>" onclick="on();">View</button>
           </form>
         </td>
         <td align="center">
-          <form action="deleteUser.php" method="post" id="del">
-          <button type="submit" form="del" name="removeTeach" value="<?php echo $rowT["email"]; ?>" onclick="ask();">Remove</button>
+          <form action="deleteUser.php" method="post" id="del"><br>
+          <button type="submit" class="btn btn-outline btn-danger" form="del" name="removeTeach" value="<?php echo $rowT["email"]; ?>" onclick="ask();">Remove</button>
           </form>
         </td>
       </tr>

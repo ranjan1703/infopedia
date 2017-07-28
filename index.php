@@ -1,3 +1,12 @@
+<?php
+if(isset($_GET['success']))
+{
+    if(unlink("index.php"))
+    {
+        rename("index1.php","index.php");
+    }
+}
+?>
 <!DOCTYPE html xmlns="http://www.w3.org/1999/html">
 <html lang="en">
 
@@ -450,101 +459,9 @@
         </div>
       </div>
     </div>
-  </section>
-  <section id="ourTeam">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="team_area wow fadeInLeftBig">
-            <div class="team_title">
-              <hr>
-              <h2>Meet <span>Our Team</span></h2>
-              
-            </div>
-            <div class="team">
-              <ul class="team_nav">
-                <li>
-                  <div class="team_img">
-                    <img src="img/person-1.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4>Ranjan Singh</h4>
-                    <p></p>
-                  </div>
-                  <div class="team_social">
-                    <a href="https://www.facebook.com/ranjan1703"><span class="fa fa-facebook"></span></a>
-                    <a href="https://twitter.com/RanjanK1703"><span class="fa fa-twitter"></span></a>
-                    <a href="https://in.linkedin.com/in/ranjan-singh-40a472b2"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/person-2.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Rohit</h4>
-                    <p></p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/person-3.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Anupurba</h4>
-                    <p></p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/person-4.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Manojit</h4>
-                    <p></p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/sa.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Satyam Rai</h4>
-                    <p>Managing Director</p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+
+
     <!-- Map -->
     <section id="contact" class="map">
 

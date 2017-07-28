@@ -20,6 +20,12 @@ if(isset($_SESSION['name']))
 
     <title>Teacher Dashboard </title>
 
+
+    <!-- Font Awesome CDN-->
+    <!-- you can replace it by local Font Awesome-->
+
+    <!-- Font Icons CSS-->
+
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -100,19 +106,25 @@ if(isset($_SESSION['name']))
 <div class="navbar-default sidebar" role="navigation">
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
-                    <li class="sidebar-search">
-                        <div class="input-group custom-search-form">
-                            <input type="text" class="form-control" placeholder="Search...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
+                    <div class="sidebar-header d-flex align-items-center">
+                    <div class="avatar"><img src="img/person-1.png" alt="..." style="border-radius: 50%" class="img-fluid rounded-circle"></div>
+                    <div class="title">
+                        <h1 class="h4"><?php echo "Welcome, $fname"?></h1>
+                        <p><?php echo "$organization"; ?></p>
+                    </div>
                         </div>
-                        <!-- /input-group -->
+                    <li>
+                        <a href="dashteacher.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="dash.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="#"><i class="fa fa-files-o fa-fw"></i> User Profile<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="blank.html">Edit Profile</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Plots<span class="fa arrow"></span></a>
@@ -129,14 +141,12 @@ if(isset($_SESSION['name']))
                     <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i>Attendence Tables</a>
                     </li>
+
                     <li>
-                        <a href="cat_page.php"><i class="fa fa-edit fa-fw"></i>Category Manager</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Test Your Skill<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Exam and Evaluation<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="giveExam.php">Practise Test</a>
+                                <a href="cat_page.php">Practise Test</a>
                             </li>
                             <li>
                                 <a href="liveexam.php">Live Test</a>
@@ -155,11 +165,8 @@ if(isset($_SESSION['name']))
                                 <a href="#">Rateing</a>
                             </li>
                             <li>
-                                <a href="#">Payment & Blogging <span class="fa arrow"></span></a>
+                                <a href="#">Blogging <span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="#">Pay Your Fee</a>
-                                    </li>
                                     <li>
                                         <a href="#">Blog</a>
                                     </li>
@@ -170,16 +177,7 @@ if(isset($_SESSION['name']))
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-files-o fa-fw"></i> User Profile<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="blank.html">Edit Profile</a>
-                            </li>
 
-                        </ul>
-                        <!-- /.nav-second-level -->
-                    </li>
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->

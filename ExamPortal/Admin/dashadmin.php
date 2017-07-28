@@ -18,7 +18,7 @@ $pending=mysqli_num_rows($rslt);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>IP Admin 1.0</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -93,14 +93,14 @@ $pending=mysqli_num_rows($rslt);
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+            <a class="navbar-brand" href="index.html">IP Admin v1.0</a>
         </div>
         <!-- /.navbar-header -->
         <div id="welcome">
 
            <h1 style="text-align: center">Welcome ADMIN</h1><br/>
             <form action="submit.php" method="post">
-                <button type="submit" name="logout" style="float: right; color: #2b542c">Logout</button>
+                <button type="submit" class="btn btn-outline btn-success" name="logout" style="float: right">Logout</button>
             </form>
         </div>
 
@@ -126,7 +126,7 @@ $pending=mysqli_num_rows($rslt);
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="dash.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="dashadmin.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Plots<span class="fa arrow"></span></a>

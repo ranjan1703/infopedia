@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 if(isset($_SESSION['fname']))
@@ -118,7 +119,7 @@ if(isset($_SESSION['fname']))
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="dash.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="dashstu.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Plots<span class="fa arrow"></span></a>
@@ -127,16 +128,16 @@ if(isset($_SESSION['fname']))
                                 <a href="attendence.php">Attendence</a>
                             </li>
                             <li>
-                                <a href="score.php">Score</a>
+                                <a href="scores.php">Score</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="tables.html"><i class="fa fa-table fa-fw"></i>Attendence Tables</a>
+                        <a href="soon.php"><i class="fa fa-table fa-fw"></i>Attendence Tables</a>
                     </li>
                     <li>
-                        <a href="forms.php"><i class="fa fa-edit fa-fw"></i>Entrance Exam Forms</a>
+                        <a href="soon.php"><i class="fa fa-edit fa-fw"></i>Entrance Exam Forms</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> Test Your Skill<span class="fa arrow"></span></a>
@@ -145,7 +146,7 @@ if(isset($_SESSION['fname']))
                                 <a href="giveExam.php">Practise Test</a>
                             </li>
                             <li>
-                                <a href="liveexam.php">Live Test</a>
+                                <a href="soon.php">Live Test</a>
                             </li>
 
                         </ul>
@@ -180,7 +181,7 @@ if(isset($_SESSION['fname']))
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> User Profile<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="blank.html">Edit Profile</a>
+                                <a href="soon.php">Edit Profile</a>
                             </li>
 
                         </ul>
@@ -210,12 +211,12 @@ if(isset($_SESSION['fname']))
                                 <i class="fa fa-comments fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge" name="pending">#</div>
-                                <div>New Pending Registration!</div>
+                                <div class="huge" name="pending"></div>
+                                <div>Practise Exam</div>
                             </div>
                         </div>
                     </div>
-                    <a href="">
+                    <a href="giveExam.php">
                         <div class="panel-footer">
                             <span class="pull-left">View Details</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -232,12 +233,12 @@ if(isset($_SESSION['fname']))
                                 <i class="fa fa-user-plus fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">12</div>
-                                <div>Add New Admin!</div>
+                                <div class="huge"></div>
+                                <div>View Score</div>
                             </div>
                         </div>
                     </div>
-                    <a href="">
+                    <a href="scores.php">
                         <div class="panel-footer">
                             <span class="pull-left" name="newADMIN" onclick="on();">View Details</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -254,12 +255,12 @@ if(isset($_SESSION['fname']))
                                 <i class="fa fa-tasks fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">100</div>
-                                <div>Manage Users</div>
+                                <div class="huge"></div>
+                                <div>Attendence</div>
                             </div>
                         </div>
                     </div>
-                    <a href="">
+                    <a href="soon.php">
                         <div class="panel-footer">
                             <span class="pull-left">View Details</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -276,12 +277,12 @@ if(isset($_SESSION['fname']))
                                 <i class="fa fa-database fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">13</div>
-                                <div>Category Manager</div>
+                                <div class="huge"></div>
+                                <div>Announcement</div>
                             </div>
                         </div>
                     </div>
-                    <a href="">
+                    <a href="announce.php">
                         <div class="panel-footer">
                             <span class="pull-left">View Details</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

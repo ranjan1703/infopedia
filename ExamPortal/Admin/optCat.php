@@ -43,6 +43,11 @@ if(mysqli_query($connect,$sql)){
         $flag=1;
         break;
       }
+      else {
+        $tem=$xyz."".$name;
+        $sqlD="DROP TABLE `$tem`";
+        mysqli_query($connect,$sqlD);
+      }
   }
   if($flag==0){
   header('Location:cat_page.php?delete=1');}

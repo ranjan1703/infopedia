@@ -126,17 +126,32 @@ $pending=mysqli_num_rows($rslt);
      background: linear-gradient(to bottom left,rgba(255,0,0,0), rgba(255,0,0,1));
    }
    </style>
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- MetisMenu CSS -->
+   <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+   <!-- Custom CSS -->
+   <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+   <!-- Morris Charts CSS -->
+   <link href="vendor/morrisjs/morris.css" rel="stylesheet">
+
+   <!-- Custom Fonts -->
+   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
  </head>
  <body>
-   <div id="title">
-     <div id="welcome">
-       Welcome ADMIN<br/>
-       <form action="submit.php" method="post">
-         <button type="submit" name="logout" style="width:100%; height:40px;">Logout</button>
-       </form>
-     </div>
-     <u>ADMIN Control Center</u>
+
+ <div id="wrapper">
+
+ <a href="dashadmin.php">
+   <div class="panel-footer">
+     <span class="pull-right"></span>
+     <span class="pull-left"><i class="fa fa-arrow-circle-left fa-3x"></i></span>
+     <div class="clearfix"></div>
    </div>
+ </a>
+
    <br/><br/>
 
    <div id="overlay" align="center">
@@ -168,27 +183,27 @@ $pending=mysqli_num_rows($rslt);
      <div style="vertical-align: middle; display: table-cell; height: 100%; padding-top: 20px;">
      <table align="center" cellspacing="50" style="width:80%;">
        <tr>
+<!--         <td align="center" colspan="50%">-->
+<!--           <a href="pending.php"><button type="button" class="actionButs a" name="pending">-->
+<!--             Pending<sup style="color:red;">--><?php //echo $pending; ?><!--</sup><br/>Registrations-->
+<!--           </button></a>-->
+<!--         </td>-->
          <td align="center" colspan="50%">
-           <a href="pending.php"><button type="button" class="actionButs a" name="pending">
-             Pending<sup style="color:red;"><?php echo $pending; ?></sup><br/>Registrations
-           </button></a>
+           <button type="button" class="btn btn-primary btn-lg" class="actionButs b" name="newADMIN" onclick="on();">Add New ADMIN</button>
          </td>
-         <td align="center" colspan="50%">
-           <button type="button" class="actionButs b" name="newADMIN" onclick="on();">Add New<br/>ADMIN</button>
+       </tr>
+       <tr><br><br>
+<!--         <td align="center" colspan="50%">-->
+<!--           <a href="cat_page.php"><button type="button" class="actionButs c" name="catEdit">Category<br/>Manager</button></a>-->
+<!--         </td>-->
+         <td align="center" colspan="50%"><br>
+           <button type="button" class="btn btn-primary btn-lg" class="actionButs d" name="newOrga" onclick="onOrga();">Add New Organization<br/>(Needs more features)<sup style="color:red;">*</sup></button>
          </td>
        </tr>
        <tr>
-         <td align="center" colspan="50%">
-           <a href="cat_page.php"><button type="button" class="actionButs c" name="catEdit">Category<br/>Manager</button></a>
-         </td>
-         <td align="center" colspan="50%">
-           <button type="button" class="actionButs d" name="newOrga" onclick="onOrga();">Add New<br/>Organization<br/>(Needs more features)<sup style="color:red;">*</sup></button>
-         </td>
-       </tr>
-       <tr>
-         <td colspan="100%" align="center">
-           <a href="manageUsers.php"><button type="button" class="actionButs e" style="width:1000px;" name="userEdit">Manage Users</button></a>
-         </td>
+<!--         <td colspan="100%" align="center">-->
+<!--           <a href="manageUsers.php"><button type="button" class="actionButs e" style="width:1000px;" name="userEdit">Manage Users</button></a>-->
+<!--         </td>-->
        </tr>
      </table>
    </div>

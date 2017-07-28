@@ -10,6 +10,17 @@ if(isset($_SESSION['name']))
 <html>
 <head>
   <title>Category Page</title>
+
+<!--  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+
+  <!-- MetisMenu CSS -->
+
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <script>
   var flag=1;
   function on() {
@@ -91,6 +102,28 @@ if(isset($_SESSION['name']))
   </style>
 </head>
 <body>
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+  <div class="navbar-header">
+<!--    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--      <span class="icon-bar"></span>-->
+<!--      <span class="icon-bar"></span>-->
+<!--      <span class="icon-bar"></span>-->
+    </button>
+  </div>
+  <a href="dashteacher.php">
+    <div class="panel-footer">
+      <span class="pull-right"></span>
+      <span class="pull-left"><i class="fa fa-arrow-circle-left fa-3x"></i></span></a>
+  <h1 style="text-align: center">NOTES WILL GO HERE</h1>
+  <div class="clearfix"></div>
+  </div>
+  </div>
+  <div <a id ="user" style="text-align: center"><?php echo "Welcome, $fname<br/>$organization"; ?></a></div><br/>
+  <form action="submit.php" method="get">
+    <button type="submit" name="logout" style="float: right; color: #2b542c">Logout</button>
+  </form>
+  </div>
+</nav>
   <div id="overlay" align="center">
     <br/><br/>
     <form id="ov_form" action="new_cat.php" method="post">
@@ -101,7 +134,7 @@ if(isset($_SESSION['name']))
     <button type="reset" form="ov_form" onclick="off();">Cancel</button>
     </form>
   </div>
- <div id="user"><?php echo "Welcome, $fname<br/>$organization"; ?></div>
+<!-- <div id="user">--><?php //echo "Welcome, $fname<br/>$organization"; ?><!--</div>-->
 <!-- <form action="submit.php" method="get">-->
 <!--   <input type="submit" name="logout" value="Logout"/>-->
 <!-- </form>-->

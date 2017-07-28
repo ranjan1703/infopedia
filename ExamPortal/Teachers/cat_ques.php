@@ -151,9 +151,51 @@ legend{
 }
 </style>
 </head>
-<body>
+<title>Edit Cat& add quest</title>
+<!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+<!---->
+<!--<!-- MetisMenu CSS -->
+<!--<link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">-->
+<!---->
+<!--<!-- Social Buttons CSS -->
+<!--<link href="vendor/bootstrap-social/bootstrap-social.css" rel="stylesheet">-->
+<!---->
+<!--<!-- Custom CSS -->
+<link href="dist/css/sb-admin-2.css" rel="stylesheet">
 
-  <div id="overlay">
+<!-- Custom Fonts -->
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<body>
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+<div class="navbar-header">
+<!--    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+    <!--      <span class="icon-bar"></span>-->
+    <!--      <span class="icon-bar"></span>-->
+    <!--      <span class="icon-bar"></span>-->
+    </button>
+  </div>
+  <a href="cat_page.php">
+    <div class="panel-footer">
+      <span class="pull-right"></span>
+      <span class="pull-left"><i class="fa fa-arrow-circle-left fa-3x"></i></span></a>
+  <h1 style="text-align: center">NOTES WILL GO HERE</h1>
+  <div class="clearfix"></div>
+  </div>
+
+<!--  <div <a id ="user" style="text-align: center">--><?php //echo "Welcome, $fname<br/>$organization"; ?><!--</a></div><br/>-->
+<!--  <form action="submit.php" method="post">-->
+<!--    <button type="submit" name="logout" style="float: right; color: #2b542c">Logout</button>-->
+<!--  </form>-->
+
+</nav>
+
+<div id="overlay">
     <fieldset id="questions">
       <legend>New Question Entry</legend>
       <form id="new_quest" action="new_quest.php" method="post">
@@ -212,17 +254,23 @@ legend{
   <table id="cat_name" cellspacing="10" cellpadding="10">
     <tr>
       <td rowspan="3" colspan="5" align="center">
-        <h2 id="setCat" style="cursor:not-allowed;" name="setCat"><br/>
+        <h2 id="setCat" style="cursor:not-allowed; text-align:" name="setCat"><br/>
+
+          <br>
+          <br>
           <?php
           echo $name;
            ?>
          </h2>
       </td>
       <td>
+<!--        <div class="panel panel-default">-->
+<!--        <div class="panel-body">-->
         <?php
         if(($rowT["organization"]==$organization) || ($organization=="ADMIN"))
         {?>
-          <button class="cat_but" onclick="catDetOn();" style="background-color:#F8FF0E;">Edit Category<br/>Details</button>
+          <button type="button" onclick="catDetOn();" class="btn btn-outline btn-primary">Edit Category Details</button>
+<!--          <button class="cat_but" onclick="catDetOn();" style="background-color:#F8FF0E;">Edit Category<br/>Details</button>-->
           <?php
         }
         else{?>
@@ -230,11 +278,12 @@ legend{
           <?php
         }?>
       </td>
+
       <td>
         <?php
         if(($rowT["organization"]==$organization) || ($organization=="ADMIN"))
         {?>
-        <button class="cat_but" onclick="on();" style="background-color:#37EA0A;">Add<br/>Question</button>
+        <button class="btn btn-outline btn-primary" onclick="on();" >Add Question</button>
           <?php
         }
         else{?>
@@ -242,16 +291,18 @@ legend{
         }?>
       </td>
     </tr>
+</div>
   </table>
 </div>
-<?php
-include_once("backtoCat.php"); ?>
+  </div>
+</div>
+
 <fieldset id="questions">
   <legend>Questions</legend>
   <?php
   include_once("dispQuestTable.php");
     ?>
-</filedset>
+</fieldset>
 </div>
 </body>
 </html>

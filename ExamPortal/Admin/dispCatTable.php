@@ -24,6 +24,9 @@ if(mysqli_num_rows($rslt)>0)
   $inact=mysqli_num_rows($rslt1);
   echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inactive Categories: $inact<br/><br/>";
 ?>
+    <html>
+    <head></head>
+    <body>
   <table cellspacing="10" cellpadding="10" border="2" id="cat_tab" align="center" rules="all">
     <tr>
       <th colspan="3" align="center">Categories</th>
@@ -44,20 +47,34 @@ if(mysqli_num_rows($rslt)>0)
       }
     }
     </script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MetisMenu CSS -->
+  <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Morris Charts CSS -->
+  <link href="vendor/morrisjs/morris.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <tr>
       <form action="optCat.php" method="post" id="opt_buts">
       <td colspan="3" align="center">
         <h3><?php echo $row["catName"]?></h3>
       </td>
-      <td colspan="3" align="center">
-          <button type="submit" class="opt_but" id="editCat" name="editCat<?php echo $n ?>" style="background-color:#3663A6; color:white; border-radius:20%; font-size:16px;" form="opt_buts">Edit</button>
+      <td colspan="3" align="center"><br>
+          <button type="submit"class="btn btn-success" class="opt_but" id="editCat" name="editCat<?php echo $n ?>"  form="opt_buts">Edit</button>
         <br/><br/>
-          <button type="submit" name="delete<?php echo $n ?>" form="opt_buts" id="submit" style="background-color:#F71D16; color:white; border-radius:20%; font-size:16px;" class="opt_but" onclick="JavaScript:return ask();" >Delete</button>
+          <button type="submit" class="btn btn-warning" name="delete<?php echo $n ?>" form="opt_buts" id="submit"   onclick="JavaScript:return ask();" >Delete</button>
       </form>
       </td>
       <td align="center">
         <form id="statChnge" method="post" action="ChangeStatus.php">
-        <button type="submit" form="statChnge" name="status<?php echo $n ?>" id="status<?php echo $n ?>">
+        <button type="submit" class="btn btn-default" form="statChnge" name="status<?php echo $n ?>" id="status<?php echo $n ?>">
           <?php if($row["status"]==1)
           {
             echo "Active";
@@ -94,3 +111,5 @@ else
   header('Location:adminLogin.php');
 }
  ?>
+</body>
+    </html>

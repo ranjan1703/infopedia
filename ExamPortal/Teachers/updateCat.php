@@ -22,6 +22,7 @@ if(isset($_POST['update']))
     if(!mysqli_query($connect,$sqlT))
     {
       echo "Category rename error";
+      header('Location:cat_ques.php?name='.$newCatname);
     }
     else {
       $sql="SELECT `email` FROM `student_login`";

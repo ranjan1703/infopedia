@@ -11,7 +11,7 @@ if(isset($_POST['update']))
   $corr=$_POST['markCor'];
   $incorr=$_POST['markIncor'];
   $t=(((float)($_POST['totTime']))*60);
-  $totTime=sprintf($t);
+  $totTime=sprintf($t); 
   $sql="UPDATE `category` SET `totTime`='$totTime',`catName`='$newCatname',`markQuestCorrect`='$corr',`markQuestIncorrect`='$incorr' WHERE `catName`='$Catname'";
   if(!mysqli_query($connect,$sql))
   {
@@ -21,7 +21,8 @@ if(isset($_POST['update']))
     $sqlT="RENAME TABLE `db_examportal`.`$Catname` TO `db_examportal`.`$newCatname`";
     if(!mysqli_query($connect,$sqlT))
     {
-      echo "Category rename error";
+      echo "$sqlT\nCategory rename error";
+      header('Location:cat_ques.php?name='.$newCatname);
     }
     else {
       $sql="SELECT `email` FROM `student_login`";

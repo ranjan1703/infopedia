@@ -1,3 +1,4 @@
+
 <?php
 include_once("dbconnect.php");
 
@@ -36,6 +37,31 @@ else
 $rsltS=mysqli_query($connect,$sqlS);
 if(mysqli_num_rows($rsltS)>0)
 {?>
+   <html>
+   <head></head>
+   <title>IP Admin 1.0</title>
+
+   <!-- Bootstrap Core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- MetisMenu CSS -->
+   <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+   <!-- Custom CSS -->
+   <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+   <!-- Morris Charts CSS -->
+   <link href="vendor/morrisjs/morris.css" rel="stylesheet">
+
+   <!-- Custom Fonts -->
+   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <body>
+
   <table cellspacing="10" cellpadding="10" border="2" id="cat_tab" align="center" rules="all">
     <tr>
       <th colspan="8" align="center">
@@ -53,13 +79,13 @@ if(mysqli_num_rows($rsltS)>0)
           <?php echo $rowS["fname"];?>
         </td>
         <td align="center">
-          <form action="manageUsers.php" method="post" id="view">
-          <button type="submit" name="showStud" value="<?php echo $rowS["email"]; ?>">View</button>
+          <form action="manageUsers.php" method="post" id="view"><br>
+          <button type="submit" name="showStud" class="btn btn-primary" value="<?php echo $rowS["email"]; ?>">View</button>
           </form>
         </td>
         <td align="center">
-          <form action="deleteUser.php" method="post" id="del">
-          <button type="submit" form="del" name="removeStud" value="<?php echo $rowS["email"]; ?>" onclick="JavaScript:return ask();">Remove</button>
+          <form action="deleteUser.php" method="post" id="del"><br>
+          <button type="submit" form="del" class="btn btn-outline btn-danger" name="removeStud" value="<?php echo $rowS["email"]; ?>" onclick="JavaScript:return ask();">Remove</button>
         </td>
         </form>
       </tr>
@@ -78,3 +104,5 @@ else
   header('Location:adminLogin.php');
 }
  ?>
+</body>
+   </html>

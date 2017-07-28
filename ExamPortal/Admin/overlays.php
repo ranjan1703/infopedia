@@ -124,7 +124,7 @@ function on()
     </tr>
     <tr>
       <td align="center" colspan="7" style="background-color:#02898A;">
-        <button type="button" onclick="off();" style="width:50%;" autofocus>OK</buton>
+        <button type="button" onclick="off();" style="width:50%; color:green;" autofocus>OK</buton>
      </td>
     </tr>
   </table>

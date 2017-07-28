@@ -1,6 +1,6 @@
 <?php
 include_once("dbconnect.php");
- ?> 
+ ?>
  <?php
  session_start();
  if(isset($_SESSION['name']))
@@ -43,6 +43,11 @@ if(mysqli_query($connect,$sql)){
       {
         $flag=1;
         break;
+      }
+      else {
+        $tem=$xyz."".$name;
+        $sqlD="DROP TABLE `$tem`";
+        mysqli_query($connect,$sqlD);
       }
   }
   if($flag==0){

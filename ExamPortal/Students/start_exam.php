@@ -7,6 +7,7 @@ if(!isset($_SESSION['CATEGORY']))
   header('Location:studLogin.php');
 }
 else{
+  $email=$_SESSION['mail'];
   $CAT=($_SESSION['CATEGORY']);
   if(isset($_SESSION['QUESTNO']))
   {
@@ -19,28 +20,37 @@ else{
 ?>
 <html>
 <head>
-  <meta http-equiv="refresh" content = "1" />
+
   <title><?php echo $CAT; ?> Commenced</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="//goo.gl/mTc43h" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script>
-  /*function showQuest()
+  startTimer();
+  function startTimer()
   {
-    document.getElementById("question").innerHTML=ques[x];
-    document.getElementById("1").innerHTML=op1[x];
-    document.getElementById("2").innerHTML=op2[x];
-    document.getElementById("3").innerHTML=op3[x];
-    document.getElementById("4").innerHTML=op4[x];
-    var ele=document.getElementsByName('marked');
-    for(i=0;i<ele.length;i++)
+    if(window.XMLHttpRequest)
     {
-      if(ele[i].value==res[x])
+      xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+      if(xmlhttp.readyState==4)
       {
-        ele[i].checked=true;
+        document.getElementById("timer").innerHTML=xmlhttp.responseText;
       }
     }
-  }*/
+    xmlhttp.open("GET","timer.php",true);
+    xmlhttp.send();
+  }
+  setInterval(function(){
+    startTimer();
+  },1000);
+
   function confirmExit()
   {
     if(confirm("Are you sure?\nFurther responses will be blocked for <?php echo $CAT; ?>")==true){
@@ -133,24 +143,45 @@ if(isset($_POST['next']))
   }
 }
 
-$timerM;$timerS;
-$currentTime=strtotime(date("h:i:sa"));
-$timerM=floor(($_SESSION['TIMER']-$currentTime)/60);
-$timerS=floor(($_SESSION['TIMER']-$currentTime)%60);
-if(isset($_SESSION['TIMER'])){
-if(($timerM==0 && $timerS==0) || isset($_POST['finish']))
+if(isset($_POST['finish']))
 {
   header('Location:prepareData.php?given=1');
-}}
-
-$sql="SELECT `questno`,`quest`,`opt1`,`opt2`,`opt3`,`opt4` FROM `$CAT` LIMIT $x,1";
+}
+$newTab=$email.$CAT;
+$sql="SELECT `questno`,`quest`,`opt1`,`opt2`,`opt3`,`opt4`,`marked` FROM `$newTab` LIMIT $x,1";
 $rslt=mysqli_query($connect,$sql);
 $row=mysqli_fetch_assoc($rslt);
+$marking=$row["marked"];
 $x=$row["questno"];
 ?>
+<script>
+function sendVal(val)
+{
+  if(val!="")
+  {
+  if(window.XMLHttpRequest)
+  {
+    xmlhttp=new XMLHttpRequest();
+  }
+  else
+  {
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.open("GET","submitMark.php?val="+val+"&q="+<?php echo "$x"; ?>,true);
+  xmlhttp.send();
+  if(val==0) {
+    document.getElementById("one").checked=false;
+    document.getElementById("two").checked=false;
+    document.getElementById("three").checked=false;
+    document.getElementById("four").checked=false;
+  }
+}
+}
+</script>
 <body>
   <div id="topBar" align="center">
-  <div id="timer" align="left"><?php echo "Timer:- $timerM:";printf("%02d\n",$timerS ); ?> mins</div>
+    <div align="right" style="margin-left:50px; font-size:40px; font-family:Bell MT; color:#5EFD50; position:fixed; padding-top:20px;"><b><?php echo $CAT; ?></b></div>
+  <div id="timer" align="left"></div>
   </div>
 
 <div id="dispQuest" align="center">
@@ -161,22 +192,24 @@ $x=$row["questno"];
 </p>
 </div>
 <div style="width:100%; height:40%; margin-top:-20px;">
-<form id="choices" action="#" method="post">
+<form id="choices" action="" method="post">
 <p id="questChoice"><b>
+
 <div style="float:left; width:50%; font-size: 20px; " align="center">
-<input class="option-input radio" type="radio" name="marked" value="1"/><?php echo $row["opt1"];?><br/><br/><br/>
-<input class="option-input radio" type="radio" name="marked" value="2"/><?php echo $row["opt2"];?><br/><br/><br/>
+<input class="option-input radio" type="radio" name="marked" id="one" value="1" <?php if($marking==1){echo "checked";} ?> onclick="sendVal(this.value);"/><?php echo $row["opt1"];?><br/><br/><br/>
+<input class="option-input radio" type="radio" name="marked" id="three" value="3" <?php if($marking==3){echo "checked";} ?> onclick="sendVal(this.value);"/><?php echo $row["opt3"];?><br/><br/><br/>
 </div>
 <div style="float:left; width:50%; font-size: 20px; text-align:left;" align="center">
-<input class="option-input radio" type="radio" name="marked" value="3"/><?php echo $row["opt3"];?><br/><br/><br/>
-<input class="option-input radio" type="radio" name="marked" value="4"/><?php echo $row["opt4"];?><br/><br/><br/>
+<input class="option-input radio" type="radio" name="marked" id="two" value="2" <?php if($marking==2){echo "checked";} ?> onclick="sendVal(this.value);"/><?php echo $row["opt2"];?><br/><br/><br/>
+<input class="option-input radio" type="radio" name="marked" id="four" value="4" <?php if($marking==4){echo "checked";} ?> onclick="sendVal(this.value);"/><?php echo $row["opt4"];?><br/><br/><br/>
+
 </div>
 </b></p>
 <div id="buttonSet">
 <button class="choiceButs" form="choices" type="submit" name="prev">Previous</button>&nbsp;&nbsp;
-<button class="choiceButs" form="choices" type="reset" name="">Unmark</button>&nbsp;&nbsp;
+<button class="choiceButs" form="choices" type="submit" value="0" name="" onclick="sendVal(this.value);">Unmark</button>&nbsp;&nbsp;
 <button class="choiceButs" form="choices" type="submit" name="next">Next</button><br/><br/>
-<button class="choiceButs" form="choices" type="submit" name="finish" style="width:100%; height:30px; border-radius:10px; background-color:#B3B6B7;">Submit and Exit</button>
+<button class="choiceButs" form="choices" type="submit" name="finish" style="width:100%; height:30px; border-radius:10px; background-color:#B3B6B7;" onclick="JavaScript:return confirmExit();">Submit and Exit</button>
 </div>
 </form>
 </div>

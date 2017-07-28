@@ -5,28 +5,11 @@ if(isset($_SESSION['fname']))
   $fname=$_SESSION['fname'];
   $email=$_SESSION['mail'];
   ?>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
   <title>
     Exam Options
   </title>
-
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- MetisMenu CSS -->
-  <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="dist/css/sb-admin-2.css" rel="stylesheet">
-
-  <!-- Morris Charts CSS -->
-  <link href="vendor/morrisjs/morris.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <script>
   function validate()
   {
@@ -102,39 +85,13 @@ if(isset($_SESSION['fname']))
     background-color: #D5F5E3;
   }
   </style>
-
-
-
 </head>
 <body>
-
-<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    </div>
-    <a href="dashstu.php">
-      <div class="panel-footer">
-        <span class="pull-right"></span>
-        <span class="pull-left"><i class="fa fa-arrow-circle-left fa-3x"></i></span></a>
-  <h1 style="text-align: center">NOTES WILL GO HERE</h1>
-        <div class="clearfix"></div>
-      </div>
-      </div>
-  <div <a id ="user" style="text-align: center"><?php echo "Welcome, $fname<br/>$email"; ?></a></div><br/>
-  <form action="submit.php" method="post">
-    <button type="submit" name="logout" style="float: right; color: #2b542c">Logout</button>
+  <div id="user"><?php echo "Welcome, $fname<br/>$email"; ?></div>
+  <form action="submit.php" method="get">
+    <input type="submit" name="logout" value="Logout"/>
   </form>
-  </div>
-</nav>
-<!--  <div id="user">--><?php //echo "Welcome, $fname<br/>$email"; ?><!--</div>-->
-<!--  <form action="submit.php" method="get">-->
-<!--    <input type="submit" name="logout" value="Logout"/>-->
-<!--  </form>-->
+  <a href="scores.php">Score Page</a>
 <div id="cat_select" align="center">
   <form id="catDetailsShow" action="" method="post">
 <select name="categorySelect" id="categorySelect">
@@ -218,28 +175,10 @@ if(isset($_POST['categorySelect']))
 </form>
 <?php
 }
-else {
-  include_once("analysis.php");
-}
 ?>
 </br>
 </div>
 </div>
-<script src="/vendor/jquery/jquery.min.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Metis Menu Plugin JavaScript -->
-<script src="vendor/metisMenu/metisMenu.min.js"></script>
-
-<!-- Morris Charts JavaScript -->
-<script src="vendor/raphael/raphael.min.js"></script>
-<script src="vendor/morrisjs/morris.min.js"></script>
-<script src="data/morris-data.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="dist/js/sb-admin-2.js"></script>
 </body>
 </html>
 <?php

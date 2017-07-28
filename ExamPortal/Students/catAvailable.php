@@ -1,7 +1,7 @@
 <?php
 include_once("dbconnect.php");
 
-$sql="select a.`catName` from `$email` as a, `category` as b where a.`catName`=b.`catName` and b.`status`='1'";
+$sql="select a.`catName` from `$email` as a, `category` as b where a.`catName`=b.`catName` and b.`status`='1' and a.`given`='0'";
 
 $rslt=mysqli_query($connect,$sql);
 if(mysqli_num_rows($rslt)>0)
