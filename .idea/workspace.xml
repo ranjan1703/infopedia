@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="521ad65b-e91b-40d7-8376-68db9ae22833" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/anu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rohit_test.php" afterPath="" />
     </list>
     <ignored path="infopedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashadmin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashadmin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExamPortal/Admin/dashadmin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="537">
@@ -32,26 +32,6 @@
               <folding>
                 <marker date="1501138740000" expanded="true" signature="81:109" ph="SELECT * FRO... temp_teacher" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rohit_test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rohit_test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anu.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/anu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -346,7 +326,7 @@
       <workItem from="1501245445667" duration="3758000" />
       <workItem from="1501258414823" duration="12000" />
       <workItem from="1501258664553" duration="850000" />
-      <workItem from="1501308738170" duration="1329000" />
+      <workItem from="1501308738170" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="new update">
       <created>1501258775445</created>
@@ -366,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22549000" />
+    <option name="totallyTimeSpent" value="23449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -702,16 +682,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.php" />
-    <entry file="file://$PROJECT_DIR$/ExamPortal/Admin/dashadmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
-          <folding>
-            <marker date="1501138740000" expanded="true" signature="81:109" ph="SELECT * FRO... temp_teacher" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7871">
@@ -759,6 +729,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashstu.php" />
+    <entry file="file://$PROJECT_DIR$/anu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rohit_test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -767,11 +745,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anu.php">
+    <entry file="file://$PROJECT_DIR$/ExamPortal/Admin/dashadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="537">
+          <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+          <folding>
+            <marker date="1501138740000" expanded="true" signature="81:109" ph="SELECT * FRO... temp_teacher" />
+          </folding>
         </state>
       </provider>
     </entry>
